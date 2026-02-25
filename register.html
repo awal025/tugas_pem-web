@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moh.awal</title>
+    <style>
+        body{
+            align-items:center; 
+            justify-content:center; 
+            display: flex;
+            padding-top: 100px;
+        }
+        .form{
+            background-color: cyan; 
+            width:400px; 
+            height:500px;
+            border-radius: 20px;
+            
+        }
+        .kotak{
+            /* background-color: white; */
+            width:300px; 
+            height:400px; 
+            margin-left: 50px; 
+            margin-top: 50px; 
+            /* padding-top: 1px;  */
+            /* text-align: center; */
+        }
+        h2{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        label{
+            /* background-color: yellow; */
+            font-size: 15px;
+            font-weight: bold;
+            /* margin-left: 2%; */
+        }
+        #email, #password,#nama, #panggilan{
+            /* background-color: yellowgreen; */
+            width: fit-content;
+            margin-top: 5px;
+            width: 295px;
+            height: 30px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        button{
+            margin-top: 20px;
+            width: 300px;
+            height: 30px;
+            background-color: gray;
+            color: white;
+            font-size: medium;
+            font-weight: bold;
+            border-radius:15px;
+        }
+        #login-link{
+            /* background-color: rgb(0, 255, 102); */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <div class="kotak">
+            <h2>Buat akun</h2>
+            <label for="nama">Nama Lengkap</label><br>
+            <input id="nama"type="text"><br>
+            <label for="Email">Email</label><br>
+            <input id="email" type="text"><br>
+            <label for="panggilan">Nama panggilan</label><br>
+            <input id="panggilan" type="text"><br>
+            <label for="password">Password</label><br>
+            <input id="password" type="password" ><br>
+            <button>sign up</button>
+            <div id="login-link">
+                <p>sudah punya akun? <a href="form_login.html">Login</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
